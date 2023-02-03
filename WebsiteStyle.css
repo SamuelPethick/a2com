@@ -1,0 +1,79 @@
+body {background-color:white;}
+
+/*This CSS is to format my title*/
+#SamuelPethick {color:black; 
+ text-align:center; 
+ border-style:hidden; 
+ border-radius:15px; 
+ background-color:#00bfff;
+ }
+
+/* Option 1: This CSS formats my NavBar, same CSS for both pages, it displays a list in a green box with a rounded border*/
+#RelLink {
+ list-style-type: none;
+ margin: 10px;
+ padding: 10px;
+ border-style: hidden;
+ border-radius: 5px;
+ width: 150px;
+ background-color: #008000;
+ }
+ 
+ /* End of Option 1 /*
+ 
+ /* Option 2: This CSS styles my URLS to my places of education and work, displays them as red to better contrast its blue background*/
+ .URL {
+	 color: red ; 
+	 border: hidden;
+ }
+ 
+ /* End of Option 2/*
+	 
+ 
+/*This CSS formats my Subheadings and Gives them stylish borders*/
+.subhead {color:black;
+ border-style: hidden; 
+ border-radius: 15px;
+ background-color: #00bfff;
+ padding-left: 15px;
+ width: 300px;
+ }
+ /* This CSS formats my second page subheadings, given a different class to allow quick edits without effecting the whole website*/
+ .P2subhead {color:black;
+ border-style: hidden; 
+ border-radius: 15px;
+ background-color: #00bfff;
+ padding-left: 15px;
+ width: 300px;
+ text-align: center;
+ }
+
+/*This CSS makes all my paragraphs conform to a certain width to keep it from looking weird*/
+p {width:500px;
+   color:black;
+   text-align:left
+ }
+
+/* This CSS gives my category titles standard characteristics to give my document order*/
+h2 {color:black; text-align:center; font-weight:normal;}
+
+/* Image CSS Area*/
+
+/* Option 3: Lindsay Google Map dimensions set to source resolution, resized based off of best image size to display/remove what is and isn't relevant*/
+
+#Lindsay{
+	height: 500px; 
+	width: 640px; 
+}
+
+#Carleton{
+	height: 840px; 
+	width: 840px; 
+}
+
+#Fleming{
+	height: 600px; 
+	width: 720px; 
+}
+
+/* End of Option 3*/
