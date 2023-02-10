@@ -11,23 +11,10 @@ body {background-color:white;}
 .desc{text-align: center;
  }
 
-/* Option 1: This CSS formats my NavBar, same CSS for both pages, it displays a list in a green box with a rounded border*/
-/* #RelLink {
- list-style-type: none;
- margin: 10px;
- padding: 10px;
- border-style: hidden;
- border-radius: 5px;
- width: 150px;
- background-color: #AEFA95;
- } */
-
  /* Option 1: This CSS formats my NavBar, same CSS for both pages, it displays a list in a green box with a rounded border*/
  /* New Navbar updates sourced from https://www.w3schools.com/css/css_navbar_vertical.asp, with personal adjustments*/
  #RelLink {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   width: 200px;
   background-color: #AEFA95;
   padding: 8px 16px;
@@ -39,7 +26,9 @@ body {background-color:white;}
 	color: #000;
 	padding: 8px 16px;
 	text-decoration: none;
-  }
+	border-style:double;
+	border-radius: 10px;
+  } 
 
   li a:hover {
 	background-color: #555;
