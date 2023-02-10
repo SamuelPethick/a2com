@@ -5,7 +5,10 @@ body {background-color:white;}
  text-align:center; 
  border-style:hidden; 
  border-radius:15px; 
- background-color:#00bfff;
+ background-color:#AEFA95;
+ }
+
+.desc{text-align: center;
  }
 
 /* Option 1: This CSS formats my NavBar, same CSS for both pages, it displays a list in a green box with a rounded border*/
@@ -16,7 +19,7 @@ body {background-color:white;}
  border-style: hidden;
  border-radius: 5px;
  width: 150px;
- background-color: #008000;
+ background-color: #AEFA95;
  }
  
  /* End of Option 1 /*
@@ -34,7 +37,7 @@ body {background-color:white;}
 .subhead {color:black;
  border-style: hidden; 
  border-radius: 15px;
- background-color: #00bfff;
+ background-color: #AEFA95;
  padding-left: 15px;
  width: 300px;
  }
@@ -42,7 +45,7 @@ body {background-color:white;}
  .P2subhead {color:black;
  border-style: hidden; 
  border-radius: 15px;
- background-color: #00bfff;
+ background-color: #AEFA95;
  padding-left: 15px;
  width: 300px;
  text-align: center;
